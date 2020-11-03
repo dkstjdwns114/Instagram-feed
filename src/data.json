@@ -1,0 +1,46 @@
+{
+  "post_list": [
+    {
+      "idx": 1,
+      "id": "banana",
+      "profile_image": "http://placeimg.com/50/50/any",
+      "contents": "Hello!! My name is banana",
+      "photo_thumbnails": [
+        {
+          "1": "http://placeimg.com/161/161/any",
+          "2": "http://placeimg.com/161/161/any",
+          "3": "http://placeimg.com/161/161/any",
+          "4": "http://placeimg.com/161/161/any",
+          "5": "http://placeimg.com/161/161/any",
+          "6": "http://placeimg.com/161/161/any",
+          "7": "http://placeimg.com/161/161/any",
+          "8": "http://placeimg.com/161/161/any",
+          "9": "http://placeimg.com/161/161/any",
+          "10": "http://placeimg.com/161/161/any"
+        }
+      ],
+      "like_cnt": 3
+    },
+    {
+      "idx": 2,
+      "id": "orange",
+      "profile_image": "http://placeimg.com/50/50/any",
+      "contents": "Hello!! My name is orange",
+      "photo_thumbnails": [
+        {
+          "1": "http://placeimg.com/161/161/any",
+          "2": "http://placeimg.com/161/161/any",
+          "3": "http://placeimg.com/161/161/any",
+          "4": "http://placeimg.com/161/161/any",
+          "5": "http://placeimg.com/161/161/any",
+          "6": "http://placeimg.com/161/161/any",
+          "7": "http://placeimg.com/161/161/any",
+          "8": "http://placeimg.com/161/161/any",
+          "9": "http://placeimg.com/161/161/any",
+          "10": "http://placeimg.com/161/161/any"
+        }
+      ],
+      "like_cnt": 3
+    }
+  ]
+}
