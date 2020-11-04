@@ -1,15 +1,17 @@
-import React from "react";
-import ProfileImg from "./ProfileImg";
-import Thumbnails from "./Thumbnails";
+import React, { Component } from "react";
+import Post from "./Post";
+import ThumbnailCon from "./ThumbnailCon";
+import PostData from "./data.json";
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Hello World!!</h2>
-      <ProfileImg></ProfileImg>
-      <Thumbnails></Thumbnails>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h2>Instagram Feed</h2>
+        <Post></Post>
+      </div>
+    );
+  }
 }
 
 export default App;
