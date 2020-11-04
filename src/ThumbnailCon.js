@@ -1,8 +1,5 @@
-import React, { Component } from "react";
-import PostData from "./data.json";
+import React from "react";
 
-function ThumbnailCon({ content }) {
+export default function ThumbnailCon({ content }) {
   return <div>{content}</div>;
 }
-
-export default ThumbnailCon;

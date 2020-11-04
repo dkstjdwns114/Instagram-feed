@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-function Profile({ profile_image, id }) {
+export default function Profile({ profile_image, id }) {
   return (
     <div>
       <img src={profile_image} />
@@ -8,5 +8,3 @@ function Profile({ profile_image, id }) {
     </div>
   );
 }
-
-export default Profile;

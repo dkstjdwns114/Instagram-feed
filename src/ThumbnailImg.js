@@ -1,16 +1,18 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import PostData from "./data.json";
 
-function ThumbnailImg() {
+function ThumbnailImg({ photo_thumbnails }) {
+  const container = Object.values(photo_thumbnails).map((images, index) => {
+    return <img id={index} src={images} />;
+  });
+  const [currentImage, setImage] = useState(container[0]);
+  console.log(container);
   return (
     <div>
-      {/* {PostData.post_list.map((post_list, index) => {
-        post_list.photo_thumbnails.map((images, index) => {
-          console.log(images);
-          return <img src={images} />;
-        });
-        return post_list;
-      })} */}
+      {currentImage}
+      <p>
+        <a href="#">이전</a> <a href="#">다음</a>
+      </p>
     </div>
   );
 }

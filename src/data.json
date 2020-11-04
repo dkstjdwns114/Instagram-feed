@@ -5,42 +5,57 @@
       "id": "banana",
       "profile_image": "http://placeimg.com/50/50/any",
       "contents": "Hello!! My name is banana",
-      "photo_thumbnails": [
-        {
-          "1": "http://placeimg.com/161/161/any",
-          "2": "http://placeimg.com/161/161/any",
-          "3": "http://placeimg.com/161/161/any",
-          "4": "http://placeimg.com/161/161/any",
-          "5": "http://placeimg.com/161/161/any",
-          "6": "http://placeimg.com/161/161/any",
-          "7": "http://placeimg.com/161/161/any",
-          "8": "http://placeimg.com/161/161/any",
-          "9": "http://placeimg.com/161/161/any",
-          "10": "http://placeimg.com/161/161/any"
-        }
-      ],
-      "like_cnt": 3
+      "photo_thumbnails": {
+        "thumbnails1": "http://placeimg.com/119/120/any",
+        "thumbnails2": "http://placeimg.com/120/120/any",
+        "thumbnails3": "http://placeimg.com/121/120/any",
+        "thumbnails4": "http://placeimg.com/122/120/any",
+        "thumbnails5": "http://placeimg.com/123/120/any",
+        "thumbnails6": "http://placeimg.com/120/119/any",
+        "thumbnails7": "http://placeimg.com/120/120/any",
+        "thumbnails8": "http://placeimg.com/120/121/any",
+        "thumbnails9": "http://placeimg.com/120/122/any",
+        "thumbnails10": "http://placeimg.com/120/123/any"
+      },
+      "like_cnt": 4
     },
     {
       "idx": 2,
       "id": "orange",
       "profile_image": "http://placeimg.com/50/50/any",
       "contents": "Hello!! My name is orange",
-      "photo_thumbnails": [
-        {
-          "1": "http://placeimg.com/161/161/any",
-          "2": "http://placeimg.com/161/161/any",
-          "3": "http://placeimg.com/161/161/any",
-          "4": "http://placeimg.com/161/161/any",
-          "5": "http://placeimg.com/161/161/any",
-          "6": "http://placeimg.com/161/161/any",
-          "7": "http://placeimg.com/161/161/any",
-          "8": "http://placeimg.com/161/161/any",
-          "9": "http://placeimg.com/161/161/any",
-          "10": "http://placeimg.com/161/161/any"
-        }
-      ],
-      "like_cnt": 3
+      "photo_thumbnails": {
+        "thumbnails1": "http://placeimg.com/119/120/any",
+        "thumbnails2": "http://placeimg.com/120/120/any",
+        "thumbnails3": "http://placeimg.com/121/120/any",
+        "thumbnails4": "http://placeimg.com/122/120/any",
+        "thumbnails5": "http://placeimg.com/123/120/any",
+        "thumbnails6": "http://placeimg.com/120/119/any",
+        "thumbnails7": "http://placeimg.com/120/120/any",
+        "thumbnails8": "http://placeimg.com/120/121/any",
+        "thumbnails9": "http://placeimg.com/120/122/any",
+        "thumbnails10": "http://placeimg.com/120/123/any"
+      },
+      "like_cnt": 10
+    },
+    {
+      "idx": 3,
+      "id": "apple",
+      "profile_image": "http://placeimg.com/50/50/any",
+      "contents": "Hello!! My name is apple",
+      "photo_thumbnails": {
+        "thumbnails1": "http://placeimg.com/119/120/any",
+        "thumbnails2": "http://placeimg.com/120/120/any",
+        "thumbnails3": "http://placeimg.com/121/120/any",
+        "thumbnails4": "http://placeimg.com/122/120/any",
+        "thumbnails5": "http://placeimg.com/123/120/any",
+        "thumbnails6": "http://placeimg.com/120/119/any",
+        "thumbnails7": "http://placeimg.com/120/120/any",
+        "thumbnails8": "http://placeimg.com/120/121/any",
+        "thumbnails9": "http://placeimg.com/120/122/any",
+        "thumbnails10": "http://placeimg.com/120/123/any"
+      },
+      "like_cnt": 50
     }
   ]
 }
