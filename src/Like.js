@@ -24,7 +24,7 @@ export default function Like({ like }) {
   };
   return (
     <div style={isLike ? likedStyle : likeStyle} onClick={clicked}>
-      <a>like {likeCnt}</a>
+      <span>like {likeCnt}</span>
     </div>
   );
 }

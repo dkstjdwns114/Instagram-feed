@@ -19,9 +19,9 @@ export default function ThumbnailImg({ photo_thumbnails }) {
       <img src={images[index]} alt={`${index}번 이미지`} />
       <p>
         <button onClick={prevImage}>{"이전"}</button>
-        <a>
+        <span>
           {index + 1} / {images.length}
-        </a>
+        </span>
         <button onClick={nextImage}>{"다음"}</button>
       </p>
     </div>

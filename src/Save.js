@@ -22,7 +22,7 @@ export default function Save() {
   };
   return (
     <div style={isSave ? savedStyle : saveStyle} onClick={clicked}>
-      <a>{isSave ? "저장됨" : "저장안됨"}</a>
+      <span>{isSave ? "저장됨" : "저장안됨"}</span>
     </div>
   );
 }

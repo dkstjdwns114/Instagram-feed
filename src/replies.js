@@ -22,7 +22,6 @@ class Replies extends Component {
     let item = this.state.item;
     items.push(item);
     this.setState({ items: items });
-    console.log(e);
   }
 
   render() {
@@ -30,8 +29,8 @@ class Replies extends Component {
       <>
         <input type="text" name="item" onChange={this.handleInputChange} />
         <input type="submit" value="Submit" onClick={this.submitItem} />
-        {this.state.items.map((item) => {
-          return <p>{item}</p>;
+        {this.state.items.map((item, index) => {
+          return <p key={index}>{item}</p>;
         })}
       </>
     );
