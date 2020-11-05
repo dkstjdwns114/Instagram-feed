@@ -3,7 +3,7 @@
     {
       "idx": 1,
       "id": "banana",
-      "profile_image": "http://placeimg.com/50/50/any",
+      "profile_image": "http://placeimg.com/51/50/any",
       "contents": "Hello!! My name is banana",
       "photo_thumbnails": {
         "thumbnails1": "http://placeimg.com/119/120/any",
@@ -17,24 +17,25 @@
         "thumbnails9": "http://placeimg.com/120/122/any",
         "thumbnails10": "http://placeimg.com/120/123/any"
       },
+      "replies": {
+        "reply1": "Hello",
+        "reply2": "zzzz",
+        "reply3": "gkgkgk"
+      },
       "like_cnt": 4
     },
     {
       "idx": 2,
       "id": "orange",
-      "profile_image": "http://placeimg.com/50/50/any",
+      "profile_image": "http://placeimg.com/49/50/any",
       "contents": "Hello!! My name is orange",
       "photo_thumbnails": {
-        "thumbnails1": "http://placeimg.com/119/120/any",
-        "thumbnails2": "http://placeimg.com/120/120/any",
-        "thumbnails3": "http://placeimg.com/121/120/any",
-        "thumbnails4": "http://placeimg.com/122/120/any",
-        "thumbnails5": "http://placeimg.com/123/120/any",
-        "thumbnails6": "http://placeimg.com/120/119/any",
-        "thumbnails7": "http://placeimg.com/120/120/any",
-        "thumbnails8": "http://placeimg.com/120/121/any",
-        "thumbnails9": "http://placeimg.com/120/122/any",
-        "thumbnails10": "http://placeimg.com/120/123/any"
+        "thumbnails1": "http://placeimg.com/120/123/any",
+        "thumbnails2": "http://placeimg.com/120/122/any"
+      },
+      "replies": {
+        "reply1": "zzzz",
+        "reply2": "안녕하세요"
       },
       "like_cnt": 10
     },
@@ -54,6 +55,12 @@
         "thumbnails8": "http://placeimg.com/120/121/any",
         "thumbnails9": "http://placeimg.com/120/122/any",
         "thumbnails10": "http://placeimg.com/120/123/any"
+      },
+      "replies": {
+        "reply1": "zzzz",
+        "reply2": "placeimg",
+        "reply3": "any",
+        "reply4": "name"
       },
       "like_cnt": 50
     }

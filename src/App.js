@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Post from "./Post";
-import ThumbnailCon from "./ThumbnailCon";
-import PostData from "./data.json";
 
 class App extends Component {
   render() {
