@@ -4,6 +4,8 @@ import ThumbnailCon from "./ThumbnailCon";
 import PostData from "./data.json";
 import ThumbnailImg from "./ThumbnailImg";
 import Replies from "./replies";
+import Like from "./Like";
+import Save from "./Save";
 
 function Post() {
   return (
@@ -17,6 +19,8 @@ function Post() {
             />
             <ThumbnailImg photo_thumbnails={post_list.photo_thumbnails} />
             <ThumbnailCon content={post_list.contents} />
+            <Like like={post_list.like_cnt} />
+            <Save />
             <Replies replies={post_list.replies} />
           </div>
         );
