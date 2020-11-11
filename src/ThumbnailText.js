@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function ThumbnailCon({ content }) {
+export default function ThumbnailText({ content }) {
   return <div>{content}</div>;
 }
