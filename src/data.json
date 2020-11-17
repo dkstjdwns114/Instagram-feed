@@ -275,12 +275,43 @@
       "contents": "Hello!! My asdasdname izxczs apple",
       "photo_thumbnails": [
         {
+          "thumbnails": "http://placeimg.com/121/120/any",
+          "type": "image"
+        },
+        {
           "thumbnails": "./file/testVideo.mp4",
           "type": "video"
         },
         {
-          "thumbnails": "http://placeimg.com/121/120/any",
+          "thumbnails": "./file/testVideo.mp4",
+          "type": "video"
+        },
+        {
+          "thumbnails": "./file/testVideo.mp4",
+          "type": "video"
+        }
+      ],
+      "replies": [
+        { "id": "korea", "reply": "I'mqqweq frwqrqwrom wewewkorea!!" },
+        { "id": "watermelon", "reply": "내rerer이름은박수박거꾸로해도박수박" },
+        { "id": "great", "reply": "gkgkgk" }
+      ],
+      "like_cnt": 50
+    },
+
+    {
+      "idx": 10,
+      "id": "apple",
+      "profile_image": "http://placeimg.com/50/50/any",
+      "contents": "Hello!! My asdasdname izxczs apple",
+      "photo_thumbnails": [
+        {
+          "thumbnails": "http://placeimg.com/120/120/any",
           "type": "image"
+        },
+        {
+          "thumbnails": "./file/testVideo.mp4",
+          "type": "video"
         },
         {
           "thumbnails": "./file/testVideo.mp4",
@@ -299,7 +330,7 @@
       "like_cnt": 50
     },
     {
-      "idx": 10,
+      "idx": 11,
       "id": "banana",
       "profile_image": "http://placeimg.com/51/50/any",
       "contents": "Hello!! My narerweqme is banana",
@@ -353,7 +384,7 @@
       "like_cnt": 4
     },
     {
-      "idx": 11,
+      "idx": 12,
       "id": "orange",
       "profile_image": "http://placeimg.com/49/50/any",
       "contents": "Hello!! My name is oaazzrange",
