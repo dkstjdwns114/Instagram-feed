@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import Post from "./Post";
 import ProfileDetail from "./ProfileDetail";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h2>Instagram Feed</h2>
-        <Post></Post>
-        <br />
-        <h2>User Profile details Test</h2>
-        <ProfileDetail></ProfileDetail>
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={Post} />
+            <Route exact path="/profileDetail/:id" component={ProfileDetail} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

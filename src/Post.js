@@ -10,6 +10,7 @@ import Save from "./Save";
 function Post() {
   return (
     <div>
+      <h2>Instagram Feed</h2>
       {PostData.post_list.map((post_list, index) => {
         return (
           <div key={index} style={{ borderBottom: "1px solid gray" }}>

@@ -11,7 +11,7 @@ export default function ProfileDetailThumbnails({ userId, userInfo }) {
 
   let thumbnailList = [];
 
-  thumbnailArr.map((thumbnail, index) => {
+  thumbnailArr.forEach((thumbnail, index) => {
     thumbnail.type === "image"
       ? (index + 1) % 3 === 0
         ? thumbnailList.push(
