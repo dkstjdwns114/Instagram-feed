@@ -15,10 +15,12 @@ export default function ProfileDetail({ match }) {
     }
     return userProfile;
   });
-  console.log("detailThumbnails :", detailThumbnails);
   return (
     <div>
-      <h2>ProfileDetail</h2>
+      <h1>
+        <a href="/">HOME</a>
+      </h1>
+      <h2>{match.params.id}의 ProfileDetail</h2>
       {userProfile}
       <ProfileDetailThumbnails
         userId={match.params.id}
