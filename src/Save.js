@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const saveStyle = {
   width: "80px",
   height: "25px",
-  border: "1px solid #000000",
+  border: "2px solid #000000",
   cursor: "pointer"
 };
 const saveColor = {
