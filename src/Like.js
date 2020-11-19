@@ -2,11 +2,12 @@ import React, { useState } from "react";
 const likeStyle = {
   width: "80px",
   height: "25px",
-  border: "1px solid deeppink",
+  border: "2px solid deeppink",
   cursor: "pointer"
 };
 const likeColor = {
-  backgroundColor: "deeppink"
+  backgroundColor: "deeppink",
+  color: "white"
 };
 
 export default function Like({ like }) {
