@@ -91,7 +91,7 @@
       "idx": 3,
       "id": "apple",
       "profile_image": "http://placeimg.com/50/50/any",
-      "contents": "Hello!! My name is apple",
+      "contents": "Hello!! My name is apple, This idx is 3",
       "photo_thumbnails": [
         {
           "thumbnails": "./file/testVideo.mp4",
@@ -149,27 +149,6 @@
     },
     {
       "idx": 5,
-      "id": "orange",
-      "profile_image": "http://placeimg.com/49/50/any",
-      "contents": "Hello!! My naqwerqwerme is orange",
-      "photo_thumbnails": [
-        {
-          "thumbnails": "http://placeimg.com/121/120/any",
-          "type": "image"
-        },
-        {
-          "thumbnails": "./file/testVideo.mp4",
-          "type": "video"
-        }
-      ],
-      "replies": [
-        { "id": "kimchi", "reply": "안녕qwer하세요~~" },
-        { "id": "park", "reply": "정말 멋지네요~!!" }
-      ],
-      "like_cnt": 10
-    },
-    {
-      "idx": 6,
       "id": "apple",
       "profile_image": "http://placeimg.com/50/50/any",
       "contents": "Hello!! My qwerqwername is apple",
@@ -202,7 +181,7 @@
       "like_cnt": 50
     },
     {
-      "idx": 7,
+      "idx": 6,
       "id": "banana",
       "profile_image": "http://placeimg.com/51/50/any",
       "contents": "Hellsdfo!! My name is banana",
@@ -236,40 +215,7 @@
       "like_cnt": 4
     },
     {
-      "idx": 8,
-      "id": "orange",
-      "profile_image": "http://placeimg.com/49/50/any",
-      "contents": "Hi",
-      "photo_thumbnails": [
-        {
-          "thumbnails": "http://placeimg.com/122/120/any",
-          "type": "image"
-        },
-        {
-          "thumbnails": "./file/testVideo.mp4",
-          "type": "video"
-        },
-        {
-          "thumbnails": "http://placeimg.com/120/119/any",
-          "type": "image"
-        },
-        {
-          "thumbnails": "http://placeimg.com/120/120/any",
-          "type": "image"
-        },
-        {
-          "thumbnails": "./file/testVideo.mp4",
-          "type": "video"
-        }
-      ],
-      "replies": [
-        { "id": "kimchi", "reply": "안녕qweqwe하세요~~" },
-        { "id": "park", "reply": "정말 멋지qweqwe네요~!!" }
-      ],
-      "like_cnt": 10
-    },
-    {
-      "idx": 9,
+      "idx": 7,
       "id": "apple",
       "profile_image": "http://placeimg.com/50/50/any",
       "contents": "Hello!! My asdasdname izxczs apple",
@@ -300,7 +246,7 @@
     },
 
     {
-      "idx": 10,
+      "idx": 8,
       "id": "apple",
       "profile_image": "http://placeimg.com/50/50/any",
       "contents": "Hello!! My asdasdname izxczs apple",
@@ -330,7 +276,7 @@
       "like_cnt": 50
     },
     {
-      "idx": 11,
+      "idx": 9,
       "id": "banana",
       "profile_image": "http://placeimg.com/51/50/any",
       "contents": "Hello!! My narerweqme is banana",
@@ -384,13 +330,13 @@
       "like_cnt": 4
     },
     {
-      "idx": 12,
+      "idx": 10,
       "id": "orange",
       "profile_image": "http://placeimg.com/49/50/any",
       "contents": "Hello!! My name is oaazzrange",
       "photo_thumbnails": [
         {
-          "thumbnails": "http://placeimg.com/122/120/any",
+          "thumbnails": "http://placeimg.com/121/120/any",
           "type": "image"
         },
         {
@@ -415,6 +361,69 @@
         { "id": "park", "reply": "정말 weewrwerwe~!!" }
       ],
       "like_cnt": 1230
+    },
+    {
+      "idx": 11,
+      "id": "banana",
+      "profile_image": "http://placeimg.com/49/50/any",
+      "contents": "Hello!! I'm banana",
+      "photo_thumbnails": [
+        {
+          "thumbnails": "http://placeimg.com/122/120/any",
+          "type": "image"
+        },
+        {
+          "thumbnails": "./file/testVideo.mp4",
+          "type": "video"
+        }
+      ],
+      "replies": [
+        { "id": "apple", "reply": "하이하이" },
+        { "id": "ahn", "reply": "정말 멋지네요~!!" }
+      ],
+      "like_cnt": 992
+    },
+    {
+      "idx": 12,
+      "id": "banana",
+      "profile_image": "http://placeimg.com/49/50/any",
+      "contents": "You like banana??",
+      "photo_thumbnails": [
+        {
+          "thumbnails": "http://placeimg.com/121/121/any",
+          "type": "image"
+        }
+      ],
+      "replies": [{ "id": "apple", "reply": "zzzzzz" }],
+      "like_cnt": 13
+    },
+    {
+      "idx": 13,
+      "id": "banana",
+      "profile_image": "http://placeimg.com/49/50/any",
+      "contents": "Hi! my favorite food is banana",
+      "photo_thumbnails": [
+        {
+          "thumbnails": "http://placeimg.com/119/121/any",
+          "type": "image"
+        }
+      ],
+      "replies": [{ "id": "apple", "reply": "me too" }],
+      "like_cnt": 17
+    },
+    {
+      "idx": 14,
+      "id": "banana",
+      "profile_image": "http://placeimg.com/49/50/any",
+      "contents": "HHHHEEEEELLLLLLLOOOOOO!!!!!",
+      "photo_thumbnails": [
+        {
+          "thumbnails": "http://placeimg.com/120/119/any",
+          "type": "image"
+        }
+      ],
+      "replies": [{ "id": "admin", "reply": "hihihihihiihihihihihihi" }],
+      "like_cnt": 88
     }
   ]
 }
