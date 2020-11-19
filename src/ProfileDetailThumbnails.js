@@ -27,7 +27,7 @@ export default function ProfileDetailThumbnails({ userId, userInfo }) {
       ? thumbnailList.push(
           <>
             <video controls loop muted width="140" height="140">
-              <source src={thumbnail.thumbnails} type="video/mp4" />
+              <source src={"../../" + thumbnail.thumbnails} type="video/mp4" />
             </video>
             <br />
           </>
@@ -35,7 +35,7 @@ export default function ProfileDetailThumbnails({ userId, userInfo }) {
       : thumbnailList.push(
           <>
             <video controls loop muted width="140" height="140">
-              <source src={thumbnail.thumbnails} type="video/mp4" />
+              <source src={"../../" + thumbnail.thumbnails} type="video/mp4" />
             </video>
           </>
         );

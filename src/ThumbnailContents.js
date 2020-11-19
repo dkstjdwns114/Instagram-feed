@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function ThumbnailContents({ photo_thumbnails }) {
+export default function ThumbnailContents({ photo_thumbnails, isDetail }) {
   const [index, setIndex] = useState(0);
   const images = Object.values(photo_thumbnails).map((image, index) => {
     return image;
@@ -11,7 +11,6 @@ export default function ThumbnailContents({ photo_thumbnails }) {
     setIndex(index + 1);
   };
   const prevImage = () => {
-    console.log("before: ", index);
     if (index === 0) return;
     setIndex(index - 1);
   };
@@ -21,7 +20,14 @@ export default function ThumbnailContents({ photo_thumbnails }) {
         <img src={images[index].thumbnails} alt={`${index + 1}번 이미지`} />
       ) : (
         <video controls loop muted width="140" height="140">
-          <source src={images[index].thumbnails} type="video/mp4" />
+          {isDetail ? (
+            <source
+              src={"../../" + images[index].thumbnails}
+              type="video/mp4"
+            />
+          ) : (
+            <source src={images[index].thumbnails} type="video/mp4" />
+          )}
         </video>
       )}
 
